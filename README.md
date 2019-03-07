@@ -4,13 +4,35 @@
 
 DISCLAIMER: This repository only provides code to download and split the corpora to replicate the experiments conducted in the paper "Improving Lemmatization of Non-Standard Languages with Joint Learning" to be presented at NAACL19-HLT.
 
+## Installation
+
+Make sure to have `python`. And then:
+
+1. Install dependencies
+`pip install -r requirements.txt`
+
+2. Get the data
+`bash get_data.sh`
+
+The scripts should create a directory `historical`, with all the corpora splits inside.
+
+## Credits
+
 If you found this resource useful, please cite the following paper:
 
 ```
-@{}
+@InProceedings{
+	author = "Manjavacas, Enrique
+	and K{\'a}d{\'a}r, {\'A}kos
+	and Kestemont, Mike",
+	title = "Improving Lemmatization of Non-Standard Languages with Joint Learning",
+	booktitle = "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers)",
+	year = 	"\noop{2019}in press",
+	publisher = 	"Association for Computational Linguistics"
+}
 ```
 
-Please note that if you use any of the corpora listed here, you should also cite the corresponding resource.
+Please note that if you use any of the corpora listed here, you should also cite the corresponding resource listed below.
 
 # Sources
 ---------
